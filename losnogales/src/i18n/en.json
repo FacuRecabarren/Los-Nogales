@@ -1,10 +1,8 @@
 {
-    "home": "Home",
-    "about": "About",
-    "studies": "Studies",
-    "projects": "Projects",
-    "contact": "Contact",
-    "cv": "Resume",
+    "home": "HOME",
+    "about": "ABOUT",
+    "menu": "MENU",
+    "contact": "CONTACT",
 
     "description": "Hi, I'm Facundo Recabarren! A passionate web developer based in Argentina.",
 

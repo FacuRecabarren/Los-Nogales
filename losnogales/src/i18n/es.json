@@ -1,10 +1,8 @@
 {
-    "home": "Inicio",
-    "about": "Sobre mí",
-    "studies": "Estudios",
-    "projects": "Proyectos",
-    "contact": "Contacto",
-    "cv": "Resumen",
+    "home": "INICIO",
+    "about": "NOSOTROS",
+    "menu": "MENÚ",
+    "contact": "CONTACTO",
 
     "description": "¡Hola, soy Facundo Recabarren! Un apasionado desarrollador web con sede en Argentina.",
 
