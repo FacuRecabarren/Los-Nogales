@@ -10,15 +10,16 @@ const Menu = () => {
   return (
     <div className='w-full'>
         <section className='bg-[url(https://res.cloudinary.com/dreso9ye9/image/upload/v1708139041/Nogales/S%C3%A1nguche_de_vac%C3%ADo_1_1_lbz515.png)] bg-cover bg-fixed flex justify-center items-center'>
-            <div className='h-[25rem] flex justify-center items-center'>
+            <div className='h-[25rem] flex flex-col gap-10 justify-center items-center'>
                 <h2 id='title' className="text-6xl font-bold relative inline-block pb-3 w-max text-white">
                 NUESTRO MENÚ
                 <span id='title' className="absolute bottom-2 left-0 w-full h-[1px] bg-white"></span>
                 <span id='title' className="absolute bottom-0 left-0 w-full h-[6px] bg-white"></span> 
                 </h2>
+                <p className='text-center font-lora italic text-white px-44 text-lg'>Explore texture, color and of course the ultimate tastes with our menu of the season. All the ingredients are fresh and carefully selected by our chefs. Enjoy an extraordinary dinning experience.</p>
             </div>
         </section>
-        <section className='py-10 w-full'>
+        <section className='py-20 w-full'>
             <Accordion type="single" collapsible className="w-full flex flex-col justify-center items-center">
                 <AccordionItem value="item-1" className='w-[50rem] py-2'>
                     <AccordionTrigger className='border-4 border-[#252525]  w-full text-3xl font-bold text-[#252525] hover:no-underline hover:bg-[#252525] px-4 duration-500 hover:text-white'>COMIDA</AccordionTrigger>
