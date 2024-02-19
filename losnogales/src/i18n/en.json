@@ -1,23 +1,63 @@
 {
     "home": "HOME",
-    "about": "ABOUT",
+    "about": "ABOUT US",
     "menu": "MENU",
     "contact": "CONTACT",
 
-    "description": "Hi, I'm Facundo Recabarren! A passionate web developer based in Argentina.",
+    "welcome": "WELCOME!",
+    "welcomeDescription": "Meet the best bar in Mendoza",
+    "btnWelcome": "RESERVE",
 
-    "grade1": "Technicatura",
-    "title1": "Petrochemical technician",
+    "music": "MUSIC",
+    "musicDescription": "Enjoy a pleasant atmosphere with live DJ music.",
+    "food": "FOOD",
+    "foodDescription": "Find your ideal dish from our varied gastronomic offer.",
+    "beer": "BEER",
+    "beerDescription": "Learn a little about our exceptional craft beer",
 
-    "grade2": "Career",
-    "title2": "Professional Developer",
+    "aboutDescription": "Welcome to Los Nogales, we are a brewpub dedicated to offer premium quality craft beer.",
+    "aboutDescription2": "We invite you to enjoy our excellent food and taste our variety of high quality craft beers.",
 
-    "certificate": "Certificate",
+    "ourMenu": "OUR MENU",
+    "menuDescription": "Explore texture, color and of course the ultimate tastes with our menu of the season. Enjoy an extraordinary dinning experience",
 
-    "projectTitle": "Projects",
 
-    "contactTitle": "Contact",
-    "consult": "Make your inquiry!",
+    "papasFritas": "FRIED POTATOES",
+    "papasClasicas": "CLASSIC POTATOES",
+    "papasClasicasDesc": "French fries with cheddar accompaniment",
+    "papasCheddar": "CHEDDAR POTATOES",
+    "papasCheddarDesc": "French fries with cheddar, bacon and green onions",
+    "burgers": "HAMBURGERS",
+    "burgerSimple": "SIMPLE",
+    "burgerSimpleDesc": "Bread, a beef medallion, cheddar, tomato and lettuce",
+    "burgerFull": "FULL",
+    "burgerFullDesc": "Bread, a beef medallion, cheddar, bacon, egg, tomato and lettuce",
+    "muzarellaDesc": "Tomato sauce, mozzarella cheese and olives",
+    "pizzaEspecial": "SPECIAL",
+    "especialDesc": "Tomato sauce, mozzarella cheese, cooked ham and olives",
+    "rubia": "Golden, balanced between malts and hops, refreshing",
+    "negra": "Dark, robust and roasted, with notes of coffee and chocolate",
+    "roja": "Copper to reddish, smooth and malty with hints of caramel",
+    "ipa": "Golden to amber, bitter and aromatic, with a strong hop profile",
+    "fernet": "Bitter herbal liqueur with a distinctive flavor of anise and medicinal herbs",
+    "mojito": "Refreshing cocktail originally from Cuba, made with white rum, sugar, lime juice, mint and soda",
+    "mojitoMalibu": "Incorporates Malibu, a coconut-flavored rum liqueur, adding a tropical sweetness",
+    "vodka": "Refreshing combination of Smirnoff vodka and Sprite lemon-lime soda",
+    "drink": "DRINKS",
+
+    "hours": "SCHEDULES",
+    "lunes": "Mondays",
+    "viernes": "Fridays",
+    "sabados": "Saturdays",
+    "domingo": "Sundays",
+
+    "ourBeer": "OUR BEER",
+    "ourBeerDesc": "A unique dinner works best with a good beer",
+    "ourBeerDesc2": "You can choose from a variety of beer styles, such as blonde, red, IPA and black, each with its own unique character. Try them all and choose the one you like best.",
+    "ourBeerDesc3": "Craft beer, the result of an expert combination of ingredients and refined techniques, is an incomparable sensory experience. From refreshing blond varieties to dark and robust, it offers a diversity of flavors that captivate beer lovers around the world.",
+
+    "goodFood": "GOOD ATENTION",
+    "goodFoodDesc": "Visit us and taste the best food and craft beer in Mendoza.",
 
     "name": "Your Name *",
     "email": "Email Adress *",
@@ -27,5 +67,10 @@
     "placeholderMail": "hello@example.com",
     "placeholderMessage": "Your message...",
 
-    "send": "Send message"
+    "ubication": "UBICATION",
+
+    "send": "SEND MESSAGE",
+
+    "rights": "All Rights Reserved.",
+    "elizcaFooter": "Made by Elizca"
 }

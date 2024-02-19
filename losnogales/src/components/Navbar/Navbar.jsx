@@ -3,7 +3,6 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useTranslation } from 'react-i18next';
 import Switcher7 from '../Switcher/Switcher';
 import {useState, useEffect} from 'react';
-import { FaExternalLinkAlt } from "react-icons/fa";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -29,20 +28,21 @@ const Navbar = () => {
     };
   }, []);
 
-  const navClasses = `fixed z-20 w-full backdrop-filter transition-all duration-300 ${scrolled ? 'bg-[#252525]' : ''}`;
+  const navClasses = `fixed z-20 w-full backdrop-filter backdrop-filter backdrop-blur-sm transition-all duration-300 ${scrolled ? 'bg-[#252525] z-20' : ''}`;
+  
 
   const navigation = [
     {id:1, name: <span>{t("home")}</span>, href: '#home', current: false },
-    {id:3, name: <span>{t("about")}</span>, href: '#about', current: false },
-    {id:4, name: <span>{t("menu")}</span>, href: '#menu', current: false },
-    {id:5, name: <span>{t("contact")}</span>, href: '#contact', current: false },
+    {id:2, name: <span>{t("about")}</span>, href: '#about', current: false },
+    {id:3, name: <span>{t("menu")}</span>, href: '#menu', current: false },
+    {id:4, name: <span>{t("contact")}</span>, href: '#contact', current: false },
   ]
 
   return (
     <Disclosure as="nav" className={navClasses}>
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:4">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:4 z-20">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 right-0 flex items-center lg:hidden">
                 <div className='sm:mr-5'>
@@ -61,7 +61,7 @@ const Navbar = () => {
               </div>
               <div className='w-full'>
                 <div className="flex flex-1 justify-start items-center ">
-                    <p className="hidden sm:flex flex-shrink-0 duration-500 cursor-pointer 2xl:text-3xl text-2xl text-[#fff] font-lora font-black italic" id='home'>Los Nogales</p>
+                    <a href='#home' className="sm:flex flex-shrink-0 duration-500 cursor-pointer 2xl:text-3xl text-2xl text-[#fff] font-lora font-black italic">Los Nogales</a>
                   <div className="hidden lg:flex lg:justify-between lg:items-center lg:w-full lg:ml-6">
                     <div className="flex space-x-4 ml-7">
                       {navigation.map((item) => (
@@ -87,7 +87,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <Disclosure.Panel className="lg:hidden bg-black">
+          <Disclosure.Panel className="lg:hidden h-screen z-10">
             <div className="space-y-1 px-6 pb-3 pt-2">
               {navigation.map((item) => (
                 <Disclosure.Button
@@ -96,7 +96,7 @@ const Navbar = () => {
                 href={item.href}
                 className={classNames(
                   item.current ? 'text-palette-500' : 'text-gray-300 hover:text-palette-500 transform hover:scale-105 duration-500',
-                  'block rounded-md px-3 py-2 text-base text-center font-medium bg-accent'
+                  'block rounded-md px-3 py-2 text-base text-center font-medium bg-[#252525]'
                   )}
                   aria-current={item.current ? 'page' : undefined}
                   >

@@ -4,20 +4,59 @@
     "menu": "MENÚ",
     "contact": "CONTACTO",
 
-    "description": "¡Hola, soy Facundo Recabarren! Un apasionado desarrollador web con sede en Argentina.",
+    "welcome": "¡BIENVENIDOS!",
+    "welcomeDescription": "Conocé el mejor bar de Mendoza",
+    "btnWelcome": "RESERVAR",
 
-    "grade1": "Tecnicatura",
-    "title1": "Técnico petroquímico",
+    "music": "MÚSICA",
+    "musicDescription": "Disfrutá de un ambiente agradable musicalizado por DJ en vivo",
+    "food": "COMIDA",
+    "foodDescription": "Encontrá tu plato ideal de nuestra variada oferta gastronómica",
+    "beer": "CERVEZAS",
+    "beerDescription": "Conocé nuestra excepcional cerveza artesanal",
 
-    "grade2": "Carrera",
-    "title2": "Desarrollador profesional",
+    "aboutDescription": "Bienvenidos a Los Nogales, somos un bar cervecero dedicado a ofrecer cerveza artesanal de primera calidad",
+    "aboutDescription2": "Le invitamos a disfrutar de nuestra excelente comida y a probar nuestra variedad de cervezas artesanales de alta calidad",
 
-    "certificate": "Certificado",
+    "ourMenu": "NUESTRO MENÚ",
+    "menuDescription": "Explore la textura, el color y, por supuesto, los sabores más exquisitos con nuestro menú de temporada. Disfrute de una experiencia gastronómica extraordinaria.",
 
-    "projectTitle": "Proyectos",
+    "papasFritas": "PAPAS FRITAS",
+    "papasClasicas": "PAPAS CLASICAS",
+    "papasClasicasDesc": "Patatas fritas con acompañamiento de queso cheddar",
+    "papasCheddar": "PAPAS CHEDDAR",
+    "papasCheddarDesc": "Patatas fritas con queso cheddar, bacon y cebolla verde",
+    "burgers": "HAMBURGUESAS",
+    "burgerSimple": "SIMPLE",
+    "burgerSimpleDesc": "Pan, un medallón de ternera, queso cheddar, tomate y lechuga",
+    "burgerFull": "COMPLETA",
+    "burgerFullDesc": "Pan, un medallón de ternera, cheddar, bacon, huevo, tomate y lechuga",
+    "muzarellaDesc": "Salsa de tomate, queso mozzarella y aceitunas",
+    "pizzaEspecial": "ESPECIAL",
+    "especialDesc": "Salsa de tomate, queso mozzarella, jamón cocido y aceitunas",
+    "rubia": "Dorado, equilibrado entre maltas y lúpulos, refrescante",
+    "negra": "Oscuro, robusto y tostado, con notas de café y chocolate",
+    "roja": "Cobre a rojizo, suave y maltoso con toques de caramelo",
+    "ipa": "De dorado a ámbar, amargo y aromático, con un fuerte perfil de lúpulo",
+    "fernet": "Licor amargo de hierbas con un distintivo sabor a anís y hierbas medicinales",
+    "mojito": "Refrescante cóctel originario de Cuba, elaborado con ron blanco, azúcar, zumo de lima, menta y soda.",
+    "mojitoMalibu": "Incorpora Malibú, un licor de ron con sabor a coco, que añade un dulzor tropical",
+    "vodka": "Refrescante combinación de vodka Smirnoff y refresco de lima-limón Sprite",
+    "drink": "TRAGOS",
 
-    "contactTitle": "Contacto",
-    "consult": "¡Realizá tu consulta!",
+    "hours": "HORARIOS",
+    "lunes": "Lunes",
+    "viernes": "Viernes",
+    "sabados": "Sábados",
+    "domingo": "Domingos",
+
+    "ourBeer": "NUESTRA CERVEZA",
+    "ourBeerDesc": "Una cena única va mejor con una buena cerveza",
+    "ourBeerDesc2": "Puede elegir entre una gran variedad de estilos de cerveza, como rubia, roja, IPA y negra, cada una con su propio carácter. Pruébelas todas y elija la que más le guste.",
+    "ourBeerDesc3": "La cerveza artesanal, resultado de una experta combinación de ingredientes y técnicas refinadas, es una experiencia sensorial incomparable. Desde las refrescantes variedades rubias hasta las oscuras y robustas, ofrece una diversidad de sabores que cautiva a los amantes de la cerveza de todo el mundo.",
+
+    "goodFood": "BUENA ATENCIÓN",
+    "goodFoodDesc": "Visítanos y prueba la mejor comida y cerveza artesanal de Mendoza.",
 
     "name": "Su nombre *",
     "email": "Correo electrónico *",
@@ -27,5 +66,11 @@
     "placeholderMail": "hola@ejemplo.com",
     "placeholderMessage": "Su mensaje...",
 
-    "send": "Enviar mensaje"
+    "send": "ENVIAR MENSAJE",
+
+    "ubication": "UBICACIÓN",
+
+    "rights": "Todos los derechos reservados.",
+    "elizcaFooter": "Realizada por Elizca"
+    
 }
