@@ -9,7 +9,7 @@ const Contact = () => {
     const { t } = useTranslation()
 
   return (
-    <div id='contact' className='py-20 flex flex-col lg:flex lg:flex-row justify-center items-center lg:items-start px-20 gap-12'>
+    <div id='contact' className='py-20 flex flex-col lg:flex lg:flex-row justify-center items-center lg:items-start lg:px-20 px-10 gap-12'>
         <section className='w-full lg:w-1/2 flex flex-col justify-center items-center lg:items-start gap-10'>
             <h2 className="text-4xl lg:text-5xl font-bold relative inline-block pb-3 w-max text-[#252525]">
             {t('btnWelcome')}
@@ -41,7 +41,7 @@ const Contact = () => {
             <MapContainer
                 center={[-33.00593000803616, -68.73006488894471]}
                 zoom={13}
-                className='h-[24rem] w-full rounded-xl shadow-sombra-imagenes px-4 z-0'
+                className='h-[24rem] w-full rounded-xl shadow-sombra-imagenes z-0'
             >
                 <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" // URL del proveedor de mapas (en este caso, OpenStreetMap)
